@@ -1,44 +1,55 @@
-Predicting PMGSY Road Project Completion and Risk Using Machine Learning
+🚧 Predicting PMGSY Road Project Completion & Risk using Machine Learning
 📌 Project Overview
 
-This project is an academic end-to-end Machine Learning application that uses Predictive Analytics to analyze PMGSY (Pradhan Mantri Gram Sadak Yojana) road project data. The objective is to predict road completion levels and identify projects that are at risk of delay using Python-based machine learning techniques.
-
+This project is an end-to-end Machine Learning + Data Analytics application that analyzes PMGSY (Pradhan Mantri Gram Sadak Yojana) road project data.
+The goal is to predict road completion levels and identify projects at risk of delay using Python-based ML models and interactive Power BI dashboards.
 
 🎯 Problem Statement
 
-PMGSY road projects often face delays and inefficient utilization of funds. Traditional reporting systems mainly describe past performance and do not provide future predictions. This project aims to solve this issue by building machine learning models that can forecast project completion and classify project risk in advance.
+PMGSY projects often face delays and inefficient fund utilization.
+Traditional reporting systems only show past data and fail to provide predictive insights.
+
+👉 This project solves this by building ML models that:
+
+Forecast project completion
+
+Classify risky vs successful projects
 
 ✅ Objectives
 
-Perform data preprocessing and exploratory data analysis
+Perform Data Preprocessing & EDA
 
-Predict completed road length using regression models
+Predict completed road length (Regression)
 
-Classify projects as successful or risky
+Classify project risk (Classification)
 
-Identify performance-based project groups using clustering
+Identify patterns using Clustering
 
-Validate model performance using standard ML metrics
+Validate models using ML evaluation metrics
 
-Build a complete ML workflow strictly within academic syllabus
+Build a complete end-to-end ML pipeline
 
 🗂️ Dataset
 
-The dataset contains PMGSY road project information, including:
+Dataset sourced from data.gov.in (PMGSY) containing:
 
-State and district details
+State & District information
 
-Scheme type
+Scheme types (PMGSY-I, II, III, etc.)
 
-Sanctioned and completed road length
+Sanctioned vs Completed road length
 
-Sanctioned cost and expenditure
+Expenditure & Cost data
 
-Bridge details
+Bridge construction details
 
-Derived features such as completion percentage and project status were created during preprocessing.
+🔧 Feature Engineering:
 
-🧠 Machine Learning Techniques Used
+Completion Percentage
+
+Project Status (Successful / Risky)
+
+🧠 Machine Learning Techniques
 🔹 Supervised Learning
 
 Linear Regression
@@ -63,15 +74,40 @@ K-Means Clustering
 
 Principal Component Analysis (PCA)
 
-📊 Model Evaluation Metrics
+📊 Model Evaluation
+Regression Metrics
 
-MAE, MSE, RMSE, R² (Regression)
+MAE, MSE, RMSE, R²
 
-Accuracy, Precision, Recall, F1 Score, Confusion Matrix (Classification)
+Classification Metrics
+
+Accuracy, Precision, Recall, F1 Score
+
+Confusion Matrix
+
+Validation Techniques
 
 K-Fold Cross Validation
 
 Bias–Variance Analysis
+
+📊 Data Visualization & Dashboard
+
+Built interactive Power BI dashboards
+
+Used DAX for calculated measures like:
+
+Completion %
+
+Expenditure Utilization
+
+Visualized:
+
+State-wise performance
+
+Cost vs Road Length
+
+Project efficiency insights
 
 🛠️ Tech Stack
 
@@ -83,4 +119,28 @@ Scikit-learn
 
 Matplotlib, Seaborn
 
+Power BI
+
+DAX
+
 Jupyter Notebook
+
+🚀 Key Insights
+
+Higher expenditure does not always lead to higher completion
+
+Significant regional disparities exist in project execution
+
+ML models can predict delays early, enabling better planning
+
+🔮 Future Scope
+
+Integrate real-time data pipelines
+
+Improve predictions using advanced ML models (XGBoost, Deep Learning)
+
+Deploy as a web app (Streamlit) for live monitoring
+
+📌 Conclusion
+
+This project demonstrates how Machine Learning + Data Visualization can transform government data into actionable insights, supporting better decision-making and infrastructure planning.
